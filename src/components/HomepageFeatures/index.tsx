@@ -11,11 +11,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Visualization Module',
     imgUrl: require('@site/static/img/moduleImg.png').default,
     description: (
       <>
-        IBSheet, IBChart, IBMap 등 다양한 시각화 도구들을 사용해서 Dashboard 위젯을 만들 수 있습니다.
+        IBSheet, IBChart, IBMap 등 다양한 시각화 모듈듈들을 사용해서 Dashboard 위젯을 만들 수 있습니다.
       </>
     ),
   },
