@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'IBDashboard',
-  tagline: 'Make BI Dashboard',
+  tagline: 'IBDashboard: Turning Data into Insights, Insights into Success',
   favicon: 'img/favicon.ico',
 
   url: 'https://ibsheet.github.io',
@@ -17,9 +17,6 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -31,10 +28,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -44,20 +39,34 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'IBDashboard',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'IBDashboard Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'guideSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Guide',
+        },
+        {
+          position: 'right',
+          label: `IBSheet`,
+          href : `https://docs.ibsheet.com/ibsheet/v8/manual/#docs/intro/1introduce`,
+        },
+        {
+          position: 'right',
+          label: `IBChart`,
+          href : `https://docs.ibsheet.com/ibchart/v1/manual/#docs/intro/feature`,
+        },
+        {
+          position: 'right',
+          label: `IBMap`,
+          href : `https://docs.ibsheet.com/ibmap/v1/manual/#docs/intro/feature`,
         },
       ],
     },
