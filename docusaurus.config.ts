@@ -28,8 +28,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -39,6 +37,7 @@ const config: Config = {
   ],
 
   themeConfig: {
+    description: 'IBDashboard Guide',
     navbar: {
       title: 'IBDashboard',
       logo: {
