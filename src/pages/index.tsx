@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="IBDashboard Guide <head />">
+      description="DashBuilder Guide <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

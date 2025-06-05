@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'IBDashboard',
-  tagline: 'IBDashboard: Turning Data into Insights, Insights into Success',
+  title: 'DashBuilder',
+  tagline: 'DashBuilder: Turning Data into Insights, Insights into Success',
   favicon: 'img/favicon.ico',
 
   url: 'https://ibsheet.github.io',
-  baseUrl: '/ibdashboard-manual/', // 저장소 이름 기준
+  baseUrl: '/dashboard-manual/', // 저장소 이름 기준
   organizationName: 'ibsheet', // GitHub 조직/사용자 이름
   projectName: 'ibdashboard-manual', // 저장소 이름
 
@@ -37,11 +37,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    description: 'IBDashboard Guide',
+    description: 'DashBuilder Guide',
     navbar: {
-      title: 'IBDashboard',
+      title: 'DashBuilder',
       logo: {
-        alt: 'IBDashboard Logo',
+        alt: 'DashBuilder Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -81,7 +81,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `@ 2025 IBDashboard Team`,
+      copyright: `@ 2025 Dashboard Team`,
     },
     prism: {
       theme: prismThemes.github,
@@ -90,7 +90,7 @@ const config: Config = {
     algolia: {
       appId: 'W980SQF4DH',
       apiKey: '0ee28e648abb74fcb76f3b21d9c3a9a3',
-      indexName: 'ibdashboardManual',
+      indexName: 'dashBuilderManual',
       contextualSearch: true,
     }
   } satisfies Preset.ThemeConfig,
