@@ -12,7 +12,7 @@ const config: Config = {
   url: 'https://ibsheet.github.io',
   baseUrl: '/dashboard-manual/', // 저장소 이름 기준
   organizationName: 'ibsheet', // GitHub 조직/사용자 이름
-  projectName: 'ibdashboard-manual', // 저장소 이름
+  projectName: 'dashboard-manual', // 저장소 이름
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
