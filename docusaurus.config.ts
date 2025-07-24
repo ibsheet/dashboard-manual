@@ -87,12 +87,12 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    algolia: {
-      appId: 'W980SQF4DH',
-      apiKey: '0ee28e648abb74fcb76f3b21d9c3a9a3',
-      indexName: 'dashBuilderManual',
-      contextualSearch: true,
-    }
+    // algolia: {
+    //   appId: 'W980SQF4DH',
+    //   apiKey: '0ee28e648abb74fcb76f3b21d9c3a9a3',
+    //   indexName: 'dashBuilderManual',
+    //   contextualSearch: true,
+    // }
   } satisfies Preset.ThemeConfig,
 };
 
