@@ -36,6 +36,10 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+  ],
+
   themeConfig: {
     description: 'DashBuilder Guide',
     navbar: {
