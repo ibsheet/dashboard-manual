@@ -43,6 +43,8 @@ const config: Config = {
 
   url: 'https://ibsheet.github.io',
   baseUrl: '/dashboard-manual/', // 저장소 이름 기준
+  // GitHub Pages는 /docs/intro 를 /docs/intro/ 로 301 리디렉션하므로 canonical, sitemap 주소를 맞춤
+  trailingSlash: true,
   organizationName: 'ibsheet', // GitHub 조직/사용자 이름
   projectName: 'dashboard-manual', // 저장소 이름
 
@@ -87,6 +89,10 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          // Docusaurus 기본 예제 페이지
+          ignorePatterns: ['/dashboard-manual/markdown-page/**'],
         },
       } satisfies Preset.Options,
     ],
