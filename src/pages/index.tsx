@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="DashBuilder Guide <head />">
+      description="DashBuilder 공식 매뉴얼. DashBuilder는 IBSheet, IBChart, IBMap 위젯을 드래그 앤 드롭으로 배치해 데이터 시각화 대시보드를 만드는 웹 기반 도구입니다. 설치, 데이터셋 구성, 위젯 생성, 이벤트와 속성, API 사용법을 확인할 수 있습니다.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
