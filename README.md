@@ -1,6 +1,6 @@
-# Website
+# DashBuilder Manual
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+DashBuilder 매뉴얼 원본(Docusaurus)입니다. 공개 주소 https://ibsheet.github.io/dashboard-manual/
 
 ### Installation
 
